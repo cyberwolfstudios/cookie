@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2026.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -17388,8 +17388,7 @@ window.onload=function()
 					if (modsEnabled&&inject) {
 						setTimeout(Function(inject),250);
 					}
-					if (top!=self && !Game.local) Game.ErrorFrame();
-					else
+					
 					{
 						console.log('[=== '+choose([
 							'Oh, hello!',
